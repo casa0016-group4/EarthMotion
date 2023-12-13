@@ -27,7 +27,7 @@ const int servoPin = 9;  // Pin to which you connect the first servo
 Servo myServo2;
 const int servoPin2 = 10;  // Pin to which you connect the second servo
 
-#define LED_PIN    11  // Replace with the data input pin of your LED strip
+#define LED_PIN    13  // Replace with the data input pin of your LED strip
 #define NUMPIXELS  60  // Replace with the number of pixels in your LED strip
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, LED_PIN, NEO_GRB + NEO_KHZ800);
