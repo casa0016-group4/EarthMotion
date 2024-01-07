@@ -26,7 +26,7 @@ Earthquakes on Earth are a natural phenomenon, but they can have significant imp
 
 Hardware
 | Components   | Description |
-|--------|------|------|
+|--------|--------|
 | Arduino Uno Wi-Fi Rev2   | The board features a total of 14 digital input/output pins (including 6 PWM outputs) and 6 analog input pins, allowing connections to various sensors, actuators, and peripherals. It has a built-in Wi Fi module that enables it to connect to the Internet through Wi Fi, obtain real-time seismic data, and transmit it to various hardware for data visualization.   |
 | LCD (16*2)   | The first line shows the location of seismic activities, the second line display the magnitude of earthquake.   |
 | SG-90 Servo * 2   | These servos will rotate based on real-time seismic data and bring gears to rotate together to achieve device baseplate data visualization.   |
@@ -35,7 +35,7 @@ Hardware
 
  
 Circuit Diagram
-！[Circuit Diagram](/circuit_diagram.png)
+![Circuit Diagram](/circuit_diagram.png)
 
  
 
