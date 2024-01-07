@@ -6,8 +6,8 @@
 #include <Adafruit_NeoPixel.h>
 
 // Replace with your network credentials
-const char* ssid = "CE-Hub-Student";
-const char* password = "casa-ce-gagarin-public-service";
+const char* ssid = "SECRET_SSID";
+const char* password = "SECRET_PASSWORD";
 
 // MQTT Broker details
 const char* mqtt_server = "mqtt.cetools.org";
@@ -125,11 +125,11 @@ void callback(char* topic, byte* message, unsigned int length) {
 
     // Control LED strip color
     if (magnitudeValue <= 3.0) {
-      setColor(0, 255, 0);  // Green
+      setColor(0, 5, 0);  // Green
     } else if (magnitudeValue <= 5.0) {
-      setColor(255, 255, 0);  // Yellow
+      setColor(5, 5, 0);  // Yellow
     } else {
-      setColor(255, 0, 0);  // Red
+      setColor(5, 0, 0);  // Red
       // If the magnitude value is greater than or equal to 5.0, turn on the buzzer
       digitalWrite(buzzerPin, HIGH);
     }
@@ -168,16 +168,10 @@ void loop() {
   // Scroll the location from right to left
   scrollText(("Location:" + String(locationMessage)).c_str(), 0, 0, false);
 
-  // Delay for a certain period
-  delay(200);
-
   if (!client.connected()) {
     reconnect();
   }
   client.loop();
-
-  // Delay for a certain period
-  delay(200);
 
   // Turn off the buzzer
   digitalWrite(buzzerPin, LOW);
