@@ -80,3 +80,12 @@ Community Awareness: Placed in community centers or public spaces, the device ra
 Scientific Exhibits: Suitable for science museums or exhibits, providing an engaging and informative display of real-time seismic data. 
 
 Home Use: A scaled-down version can be created for home use, offering families a way to stay informed about global earthquake activities. 
+
+Further Development:
+Physical Device:
+Redesign the internal structure of the enclosure to entails the incorporation of internal partitions and fixed slots to systematically organize and secure the wiring. This modification aims to enhance the durability and stability of the device.
+Replace the current chip to a Raspberry Pi chip to enable the device to record and analyze seismic data over extended periods to generate comprehensive data reports and trend analyse for research and educational purpose
+AR twin:
+Add a filter function for users to select their preferred specific time periods or location.
+Apply texture mapping of the Earth to the already existed black sphere that represented the Earth.
+Add noticing to users if earthquakes occured in forms of buzzer sounds, mobile texts and emails.
