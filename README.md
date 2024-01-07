@@ -13,47 +13,29 @@ Earthquakes on Earth are a natural phenomenon, but they can have significant imp
 
 Project Introduction - EarthMotion: 
 
-EarthMotion is an innovative project based on IoT and AR technology, aiming to achieve real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs. Here are the main features of the project: 
+EarthMotion is an innovative project aiming to achieve real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs. 
 
-Global Real-time Monitoring: EarthMotion will connect to seismic monitoring data APIs from various regions, providing real-time information on earthquake activities globally. This enables us to promptly understand the distribution of earthquakes worldwide. 
+We get APIs from external website and upload real-time data to the MQTT, then users can view raw data through MQTT Explorer host: mqtt.cetools.org student/CASA0019/G4. Then Arduino Uno Wi-Fi Rev2 board enable data float to each terminal hardware.
 
-LCD Display: EarthMotion is equipped with an LCD screen to display regions on Earth currently experiencing earthquakes. Through a clear graphical interface, users can intuitively comprehend the location and intensity of earthquakes. 
+We have two methods for real-time seismic data visualization. For one, a 16*2 LCD presents location and magnitude information directly, the first line displays the exact location through scrolling text due to text’s length while the second line shows the figure of magnitude. For another, the rotation of two SG-90 servers drives the gears and sectors to rotate together, exposing the baseplate and allowing users to see the corresponding magnitude levels and intensity on the baseplate.
 
-Physical Visualization Effect: The seismic monitoring data will be visualized through the opening and closing of physical gears. Different degrees of opening correspond to different magnitudes, offering an intuitive perception. 
+We also have two ways to remind users if there is a strong earthquake happening. One way is to start the operation of buzzer, users are aware of strong earthquakes by sound. Another way is to visually based on the color of the LED light strip. If the magnitude is less than 3.0, the color is green; for levels between 3.0 and 5.0, it turns yellow; if the magnitude exceeds 5.0, it changes to red.
 
-Real-time Notifications: For significant earthquake events, EarthMotion will have the capability to send notifications, such as through an alarming buzzer, alerting users to take safety measures. 
-
-Education and Outreach: EarthMotion is not only a practical monitoring device but also an educational and outreach tool. By explaining the principles and impacts of earthquakes, we aim to increase public awareness of Earth's dynamics. 
-
-Through EarthMotion, we can make earthquake monitoring more visual, real-time, and understandable, enhancing societal awareness of geological activities and strengthening disaster preparedness. 
-
+Earthquakes on Earth are a natural phenomenon, but they can have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety.
  
 
-Ideas and References – EarthMotion: 
-
-Design Concept: The EarthMotion device will have a half-circle structure with internally connected gears. These gears will rotate based on real-time seismic data changes. 
-
-LED Light Strip: An LED light strip on the outer edge of the half-circle will change color according to the severity of the earthquake, providing a visual indicator. 
-
-LCD Screen: The LCD screen below the half-circle will display real-time earthquake information from various regions worldwide. 
-
-Buzzer Alert: Include a buzzer that activates when the earthquake magnitude exceeds a certain threshold (e.g., level 3). 
-
-Baseplate Illustrations: Illustrations depicting consequences corresponding to each level of earthquake, such as collapsing houses, will be displayed on the baseplate of the half-circle to enhance users' understanding of earthquake impacts. 
+Hardware
+| Components   | Description |
+|--------|------|------|
+| Arduino Uno Wi-Fi Rev2   | The board features a total of 14 digital input/output pins (including 6 PWM outputs) and 6 analog input pins, allowing connections to various sensors, actuators, and peripherals. It has a built-in Wi Fi module that enables it to connect to the Internet through Wi Fi, obtain real-time seismic data, and transmit it to various hardware for data visualization.   |
+| LCD (16*2)   | The first line shows the location of seismic activities, the second line display the magnitude of earthquake.   |
+| SG-90 Servo * 2   | These servos will rotate based on real-time seismic data and bring gears to rotate together to achieve device baseplate data visualization.   |
+| Buzzer   | If the magnitude level is exceeding the set threshold(in the case is 5.0), buzzer will start for alarming.   |
+| LED light strip   | If the magnitude level is below 3.0 it will be green; if the level is between 3.0 and 5.0 it turns to yellow; if the level  is higher than 5.0 it changes to red.   |
 
  
-
-Major Components Using: 
-
-Arduino Uno Wifi Board 
-
-Buzzer 
-
-LED Light Strip 
-
-LCD(Liquid Crystal Display) 
-
-Laser-cutting and 3D printing materials 
+Circuit Diagram
+！[Circuit Diagram](/circuit_diagram.png)
 
  
 
