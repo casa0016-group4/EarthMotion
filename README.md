@@ -63,7 +63,32 @@ Scientific Exhibits: Suitable for science museums or exhibits, providing an enga
 
 Home Use: A scaled-down version can be created for home use, offering families a way to stay informed about global earthquake activities. 
 
-Further Development:
+### AR Twin: 
+Features
+## Digital Twin Development
+Integration with Blender: Importing gauge FBX files into Blender for dial image integration and texture adjustments.
+Panel Rotation Mechanics: Manipulating semi-circular panels along y and z axes for accurate alignment.
+## AR Postcard with Image Tracking
+World Map Layout: Creation of a precisely laser-cut postcard for image tracking in AR.
+Dynamic Alignment: Auto-alignment of the AR object with the postcard for a seamless global view.
+## Informative Leaflet
+Data Presentation: Display of the latest global earthquake events and information from the past 24 hours.
+Enhanced Information: Detailed data feed including Earthquake Magnitude, Location, and Time.
+## Virtual Globe Feature
+Earthquake Visualization: Integration of earthquake data into a virtual globe model (sourced from Unity3D-Globe).
+Real-Time Updates: Dynamic representation of seismic activities globally.
+## Interactive AR Features
+Object Interaction: User capabilities include double-tapping to place an object, dragging, rotating, and scaling using multi-touch gestures.
+## Technologies Used
+1. Unity: For AR application development.
+2. Visual Studio Code: For coding and scripting.
+3. Blender 3.6 LTS: For design and texture modifications.
+
+In conclusion, Our Augmented Digital Counterpart project represents a significant leap in digital data presentation, providing users with an enriched and interactive experience. The integration of advanced technologies and user-friendly interactive features makes this project a standout in the field of AR applications.
+
+
+
+### Further Development:
 
 Physical Device:
 
