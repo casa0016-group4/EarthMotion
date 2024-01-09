@@ -64,7 +64,6 @@ Scientific Exhibits: Suitable for science museums or exhibits, providing an enga
 Home Use: A scaled-down version can be created for home use, offering families a way to stay informed about global earthquake activities. 
 
 ## AR Twin: 
-Features
 ### Digital Twin Development
 Integration with Blender: Importing gauge FBX files into Blender for dial image integration and texture adjustments.
 Panel Rotation Mechanics: Manipulating semi-circular panels along y and z axes for accurate alignment.
