@@ -63,23 +63,37 @@ Scientific Exhibits: Suitable for science museums or exhibits, providing an enga
 
 Home Use: A scaled-down version can be created for home use, offering families a way to stay informed about global earthquake activities. 
 
-### AR Twin: 
+## AR Twin: 
 Features
-## Digital Twin Development
+### Digital Twin Development
 Integration with Blender: Importing gauge FBX files into Blender for dial image integration and texture adjustments.
 Panel Rotation Mechanics: Manipulating semi-circular panels along y and z axes for accurate alignment.
-## AR Postcard with Image Tracking
+### AR Postcard with Image Tracking
 World Map Layout: Creation of a precisely laser-cut postcard for image tracking in AR.
 Dynamic Alignment: Auto-alignment of the AR object with the postcard for a seamless global view.
-## Informative Leaflet
+
+![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/d12c13a6-2247-419e-9839-fca2867c5a8a)
+![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/7b4502ea-8762-4bf4-8219-22fdc2f6b046)
+
+
+### Informative Leaflet
 Data Presentation: Display of the latest global earthquake events and information from the past 24 hours.
 Enhanced Information: Detailed data feed including Earthquake Magnitude, Location, and Time.
-## Virtual Globe Feature
+
+![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/34bc1804-8ce9-4b3d-99ab-ff608728c6ae)
+
+### Virtual Globe Feature
 Earthquake Visualization: Integration of earthquake data into a virtual globe model (sourced from Unity3D-Globe).
 Real-Time Updates: Dynamic representation of seismic activities globally.
-## Interactive AR Features
+
+![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/6a6f0e37-ca30-47e7-9e68-764d2d845043)
+
+### Interactive AR Features
 Object Interaction: User capabilities include double-tapping to place an object, dragging, rotating, and scaling using multi-touch gestures.
-## Technologies Used
+
+![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2)
+
+### Technologies Used
 1. Unity: For AR application development.
 2. Visual Studio Code: For coding and scripting.
 3. Blender 3.6 LTS: For design and texture modifications.
