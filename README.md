@@ -33,19 +33,19 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 ## 2.1 Physical Device Visualization
 
 ### Physical Device Design
-- Conceptual Design in Rhino: Initial prototype designed in Rhino, featuring semi-circular panels for earthquake magnitude display.
+- **Conceptual Design in Rhino**: Initial prototype designed in Rhino, featuring semi-circular panels for earthquake magnitude display.
 
-- *Grasshopper Simulation:*:  Preliminary gear and panel simulation conducted with Grasshopper to refine mechanics.
+- **Grasshopper Simulation**:  Preliminary gear and panel simulation conducted with Grasshopper to refine mechanics.
 
-- *Dial legend design*: Created a symmetrical legend on the dial for displaying magnitude and intensity.
-  <p align="center">
-    <img src="./Src/dial_legend.png" width="400px" alt="Preliminary Gear Simulation">
-    <img src="./Src/physical_device.png" width="400px" alt="Preliminary Gear Simulation">
-  </p>
+- **Dial legend design**: Created a symmetrical legend on the dial for displaying magnitude and intensity.
 
-- *Fusion360 Detailing:*: Finalized design in Fusion360, focusing on component placement and internal space arrangement.
+- **Fusion360 Detailing**: Finalized design in Fusion360, focusing on component placement and internal space arrangement.
 
-In Fusion360, we mainly focused on two aspects of model processing. The first was determining the positions of the electronic components and designing and modelling their mounting parts. The second aspect involved estimating and designing the space for wiring the equipment, while also considering the space needed for the moving parts. 
+<p align="center">
+<img src="./Src/final_design.png" width="400px" alt="Preliminary Gear Simulation">
+</p>
+
+- **3D Printing and Laser Cutting**
 
 ### Data Acquisition and Display
 - **API Integration**: We have developed a NodeJs application to request real-time earthquake data by accessing the API provided by the ESGS Earthquake Program (see [USGS Earthquake Program](https://www.usgs.gov/programs/earthquake-hazards) and [USGS API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson)). This process enables the detection of real-time earthquake activities. Upon gathering this data, our NodeJs application then publishes it to MQTT for broader accessibility.
