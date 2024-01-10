@@ -17,7 +17,20 @@ Earthquakes are natural but impactful on lives and properties. Quick access to e
 
 The synergy between the physical device and its AR Twin allows for a comprehensive and immersive experience in understanding seismic activities, making EarthMotion a pioneering project in the field of geological monitoring and education.
 
-### 2.1 Physical Device Visualization
+### Target Users
+- Educational Institutions: For students and educators in geology and environmental studies.
+- Public Spaces: For community members and families staying informed about seismic activities.
+- Science Enthusiasts: For visitors to science museums and exhibits.
+- Emergency Response Teams: For professionals in disaster management and emergency response.
+
+### Display and User Scenarios
+- **Placement**: Suitable for public spaces, educational institutions, and community centers.
+- **Interactive Learning**: Acts as a learning tool in educational settings.
+- **Community Awareness**: Raises awareness about seismic events in community centers.
+- **Scientific Exhibits**: Engaging display for science museums or exhibits.
+- **Home Use**: A scaled-down version for family use to stay informed about earthquakes.
+
+## 2.1 Physical Device Visualization
 
 ## Data Acquisition and Display
 - **API Integration**: We access APIs from external websites and upload real-time data to MQTT. Users can view the raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`.
@@ -43,18 +56,11 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 ### Circuit Diagram
 ![Circuit Diagram](/Src/circuit_diagram.png)
 
-### Target Users
-- Educational Institutions: For students and educators in geology and environmental studies.
-- Public Spaces: For community members and families staying informed about seismic activities.
-- Science Enthusiasts: For visitors to science museums and exhibits.
-- Emergency Response Teams: For professionals in disaster management and emergency response.
+### Tools Used
 
-### Display and User Scenarios
-- **Placement**: Suitable for public spaces, educational institutions, and community centers.
-- **Interactive Learning**: Acts as a learning tool in educational settings.
-- **Community Awareness**: Raises awareness about seismic events in community centers.
-- **Scientific Exhibits**: Engaging display for science museums or exhibits.
-- **Home Use**: A scaled-down version for family use to stay informed about earthquakes.
+| <img src="/Src/rhino_icon.png" width="150"> | <img src="/Src/grasshopper_icon.png" width="150"> | <img src="/Src/autocad_icon.png" width="150"> | <img src="/Src/fusion360_icon.png" width="150"> |
+|:------------------------------------------:|:------------------------------------------------:|:----------------------------------------------:|:------------------------------------------------:|
+| **Rhino**<br>Used for precision 3D modeling and CAD applications. | **Grasshopper**<br>Employed for algorithmic design and parametric modeling. | **AutoCAD**<br>Utilized for 2D and 3D CAD design and drafting. | **Fusion 360**<br>Applied for integrated CAD, CAM, and CAE software solutions. |
 
 ## 2.2 AR Twin: Digital Twin Development
 EarthMotion's AR Twin component involves the creation of a digital twin model, offering an immersive and informative augmented reality experience.
@@ -95,9 +101,7 @@ EarthMotion's AR Twin component involves the creation of a digital twin model, o
   <img witdh="450px" src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2" alt="Interactive AR"/>
 </p>
 
-## Technologies Used
-
-### Software and Tools
+### Tools Used
 
 | <img src="/Src/unity_icon.png" width="150"> | <img src="/Src/vscode_icon.png" width="150"> | <img src="/Src/blender_icon.png" width="150"> |
 |:-------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
