@@ -35,7 +35,7 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 ### Physical Device Design
 
 ### Data Acquisition and Display
-- **API Integration**: We have developed a NodeJs application to request real-time earthquake data by accessing the API provided by the ESGS Earthquake Program (see [USGS Earthquake Program](https://www.usgs.gov/programs/earthquake-hazards) and [USGS API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson)). This process allows for the detection of real-time earthquake activities, and the NodeJs application subsequently publishes this data to MQTT.
+- **API Integration**: We have developed a NodeJs application to request real-time earthquake data by accessing the API provided by the ESGS Earthquake Program (see [USGS Earthquake Program](https://www.usgs.gov/programs/earthquake-hazards) and [USGS API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson)). This process enables the detection of real-time earthquake activities. Upon gathering this data, our NodeJs application then publishes it to MQTT for broader accessibility.
 Users can view the raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`.
 - **Hardware Communication**: The Arduino Uno Wi-Fi Rev2 board is utilized to enable data flow to each terminal hardware.
 
@@ -106,7 +106,7 @@ EarthMotion's AR Twin component involves the creation of a digital twin model, o
 
 ### Tools Used
 
-| <img src="/Src/unity_icon.png" width="150"> | <img src="/Src/vscode_icon.png" width="150"> | <img src="/Src/blender_icon.png" width="150"> |
+| <img src="/Src/unity_icon.png" width="120"> | <img src="/Src/vscode_icon.png" width="120"> | <img src="/Src/blender_icon.png" width="120"> |
 |:-------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
 | **Unity**<br>Used for AR application development. | **Visual Studio Code**<br>Utilized for coding and scripting. | **Blender 3.6 LTS**<br>Employed for design and texture modifications. |
 
