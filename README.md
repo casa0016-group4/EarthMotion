@@ -58,9 +58,9 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 
 ### Tools Used
 
-| <img src="/Src/rhino_icon.png" width="120"> | <img src="/Src/grasshopper_icon.png" width="100"> | <img src="/Src/autocad_icon.png" width="100"> | <img src="/Src/fusion360_icon.jpg" width="10"> |
+| <img src="/Src/rhino_icon.png" width="120"> | <img src="/Src/grasshopper_icon.png" width="100"> | <img src="/Src/autocad_icon.png" width="100"> | <img src="/Src/fusion360_icon.jpg" width="100"> |
 |:------------------------------------------:|:------------------------------------------------:|:----------------------------------------------:|:------------------------------------------------:|
-| **Rhino**<br>Used for precision 3D modeling and CAD applications. | **Grasshopper**<br>Employed for algorithmic design and parametric modeling. | **AutoCAD**<br>Utilized for 2D and 3D CAD design and drafting. | **Fusion 360**<br>Applied for integrated CAD, CAM, and CAE software solutions. |
+| **Rhino**<br>Conceptual Design and 3D modeling | **Grasshopper**<br>Employed for algorithmic design and simple simulation. | **AutoCAD**<br>Utilized for 2D CAD design and drafting. | **Fusion 360**<br>Precise 3D modeling and dynamic simulation |
 
 ## 2.2 AR Twin: Digital Twin Development
 EarthMotion's AR Twin component involves the creation of a digital twin model, offering an immersive and informative augmented reality experience.
