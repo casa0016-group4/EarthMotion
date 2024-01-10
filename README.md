@@ -3,12 +3,11 @@
 ## Project Theme
 **Earthquakes - Climate Force**
 
+Earthquakes on Earth are a natural phenomenon, but they can have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety. IoT (Internet of Things) technology provides a new way for us to monitor seismic activity in real-time and convey information. By connecting to seismic monitoring data APIs, we can establish a real-time, global monitoring system for earthquake activities, enhancing our understanding of geological events.
+
 <div align="center">
     <img width="650px" src="./Src/Overall.jpg" alt="Final Device">
 </div>
-
-## Project Background
-Earthquakes on Earth are a natural phenomenon, but they can have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety. IoT (Internet of Things) technology provides a new way for us to monitor seismic activity in real-time and convey information. By connecting to seismic monitoring data APIs, we can establish a real-time, global monitoring system for earthquake activities, enhancing our understanding of geological events.
 
 ## Project Introduction
 **EarthMotion** is an innovative project aiming to achieve real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs.
