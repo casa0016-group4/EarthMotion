@@ -10,59 +10,44 @@
 Earthquakes are natural but impactful on lives and properties. Quick access to earthquake data is vital for disaster management and safety. IoT technology enables real-time seismic monitoring through APIs, establishing a global system to better understand geological events.
 
 ## Project Introduction
-**EarthMotion** is an innovative project aiming to achieve real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs.
+**EarthMotion** is an innovative initiative aimed at achieving real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs.
 
-We access APIs from external websites and upload real-time data to MQTT. Users can view raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`. The Arduino Uno Wi-Fi Rev2 board enables data to flow to each terminal hardware.
+### Data Acquisition and Display
+- **API Integration**: We access APIs from external websites and upload real-time data to MQTT. Users can view the raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`.
+- **Hardware Communication**: The Arduino Uno Wi-Fi Rev2 board is utilized to enable data flow to each terminal hardware.
 
-We have implemented two methods for real-time seismic data visualization:
-1. A 16*2 LCD displays location and magnitude information. The first line shows the exact location through scrolling text due to the length of the text, while the second line displays the magnitude figure.
-2. The rotation of two SG-90 servos drives gears and sectors, exposing the baseplate and allowing users to see the corresponding magnitude levels and intensity on the baseplate.
+### Visualization Methods
+1. **LCD Display (16*2)**: It presents location and magnitude information. The first line scrolls to show the exact location, while the second line displays the magnitude.
+2. **Servo Mechanism**: Two SG-90 servos rotate to drive gears and sectors, allowing users to see the magnitude levels and intensity on the baseplate.
 
-Additionally, we offer two ways to alert users in the event of a significant earthquake:
-1. The operation of a buzzer provides an auditory warning of strong earthquakes.
-2. A visually based alert using the color of an LED light strip indicates the severity. Green for magnitudes less than 3.0, yellow for levels between 3.0 and 5.0, and red if the magnitude exceeds 5.0.
+### Alert Systems
+- **Auditory Alert**: A buzzer sounds in the event of a significant earthquake.
+- **Visual Alert**: An LED light strip changes color based on the severity: green for magnitudes < 3.0, yellow for 3.0-5.0, and red for magnitudes > 5.0.
 
-*Earthquakes on Earth are a natural phenomenon, but they have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety.*
+### Hardware Components
+| Component        | Description |
+|------------------|-------------|
+| Arduino Uno Wi-Fi Rev2 | A board with 14 digital I/O pins, 6 analog inputs, and built-in Wi-Fi for data acquisition and transmission. |
+| LCD (16*2)       | Displays seismic activity location and magnitude. |
+| SG-90 Servo * 2  | Rotates based on seismic data, driving gears for baseplate data visualization. |
+| Buzzer           | Sounds an alarm for earthquakes above a certain magnitude. |
+| LED Light Strip  | Changes color to indicate earthquake severity. |
 
-
-Hardware
-| Components   | Description |
-|--------|--------|
-| Arduino Uno Wi-Fi Rev2   | The board features a total of 14 digital input/output pins (including 6 PWM outputs) and 6 analog input pins, allowing connections to various sensors, actuators, and peripherals. It has a built-in Wi Fi module that enables it to connect to the Internet through Wi Fi, obtain real-time seismic data, and transmit it to various hardware for data visualization.   |
-| LCD (16*2)   | The first line shows the location of seismic activities, the second line display the magnitude of earthquake.   |
-| SG-90 Servo * 2   | These servos will rotate based on real-time seismic data and bring gears to rotate together to achieve device baseplate data visualization.   |
-| Buzzer   | If the magnitude level is exceeding the set threshold(in the case is 5.0), buzzer will start for alarming.   |
-| LED light strip   | If the magnitude level is below 3.0 it will be green; if the level is between 3.0 and 5.0 it turns to yellow; if the level  is higher than 5.0 it changes to red.   |
-
- 
-Circuit Diagram
+### Circuit Diagram
 ![Circuit Diagram](/Src/circuit_diagram.png)
 
- 
+### Target Users
+- Educational Institutions: For students and educators in geology and environmental studies.
+- Public Spaces: For community members and families staying informed about seismic activities.
+- Science Enthusiasts: For visitors to science museums and exhibits.
+- Emergency Response Teams: For professionals in disaster management and emergency response.
 
-Target Users: 
-
-Educational Institutions: Students and educators interested in geology, earth sciences, and environmental studies. 
-
-Public Spaces: Community members, families, and individuals interested in staying informed about seismic activities globally. 
-
-Science Enthusiasts: Visitors to science museums, exhibits, or centers with an interest in real-time data and interactive displays. 
-
-Emergency Response Teams: Professionals involved in disaster management and emergency response. 
-
- 
-
-Display and User Scenarios: 
-
-Placement: The EarthMotion device can be displayed in public spaces such as museums, educational institutions, or community centers. 
-
-Interactive Learning: Positioned in educational settings, the device serves as an interactive learning tool for students to understand seismic activities. 
-
-Community Awareness: Placed in community centers or public spaces, the device raises awareness about global seismic events and encourages disaster preparedness. 
-
-Scientific Exhibits: Suitable for science museums or exhibits, providing an engaging and informative display of real-time seismic data. 
-
-Home Use: A scaled-down version can be created for home use, offering families a way to stay informed about global earthquake activities. 
+### Display and User Scenarios
+- **Placement**: Suitable for public spaces, educational institutions, and community centers.
+- **Interactive Learning**: Acts as a learning tool in educational settings.
+- **Community Awareness**: Raises awareness about seismic events in community centers.
+- **Scientific Exhibits**: Engaging display for science museums or exhibits.
+- **Home Use**: A scaled-down version for family use to stay informed about earthquakes.
 
 ## AR Twin: 
 ### Digital Twin Development
