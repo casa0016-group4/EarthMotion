@@ -19,7 +19,7 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 
 ### 2.1 Physical Device Visualization
 
-### Data Acquisition and Display
+## Data Acquisition and Display
 - **API Integration**: We access APIs from external websites and upload real-time data to MQTT. Users can view the raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`.
 - **Hardware Communication**: The Arduino Uno Wi-Fi Rev2 board is utilized to enable data flow to each terminal hardware.
 
@@ -56,34 +56,44 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 - **Scientific Exhibits**: Engaging display for science museums or exhibits.
 - **Home Use**: A scaled-down version for family use to stay informed about earthquakes.
 
-## AR Twin: 
+## 2.2 AR Twin: Digital Twin Development
+EarthMotion's AR Twin component involves the creation of a digital twin model, offering an immersive and informative augmented reality experience.
+
 ### Digital Twin Development
-Integration with Blender: Importing gauge FBX files into Blender for dial image integration and texture adjustments.
-Panel Rotation Mechanics: Manipulating semi-circular panels along y and z axes for accurate alignment.
+- **Integration with Blender**: Gauge FBX files are imported into Blender for dial image integration and texture adjustments.
+- **Panel Rotation Mechanics**: Manipulation of semi-circular panels along y and z axes for precise alignment.
+
 ### AR Postcard with Image Tracking
-World Map Layout: Creation of a precisely laser-cut postcard for image tracking in AR.
-Dynamic Alignment: Auto-alignment of the AR object with the postcard for a seamless global view.
+- **World Map Layout**: A laser-cut postcard is designed for image tracking in AR, enabling a seamless global view.
+- **Dynamic Alignment**: The AR object auto-aligns with the postcard, ensuring an accurate representation.
 
-![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/d12c13a6-2247-419e-9839-fca2867c5a8a)
-![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/7b4502ea-8762-4bf4-8219-22fdc2f6b046)
-
+<p align="center">
+  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/d12c13a6-2247-419e-9839-fca2867c5a8a" alt="AR Postcard Front"/>
+  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/7b4502ea-8762-4bf4-8219-22fdc2f6b046" alt="AR Postcard Back"/>
+</p>
 
 ### Informative Leaflet
-Data Presentation: Display of the latest global earthquake events and information from the past 24 hours.
-Enhanced Information: Detailed data feed including Earthquake Magnitude, Location, and Time.
+- **Data Presentation**: The latest global earthquake events and information from the past 24 hours are displayed.
+- **Enhanced Information**: Includes detailed data such as Earthquake Magnitude, Location, and Time.
 
-![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/34bc1804-8ce9-4b3d-99ab-ff608728c6ae)
+<p align="center">
+  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/34bc1804-8ce9-4b3d-99ab-ff608728c6ae" alt="Informative Leaflet"/>
+</p>
 
 ### Virtual Globe Feature
-Earthquake Visualization: Integration of earthquake data into a virtual globe model (sourced from Unity3D-Globe).
-Real-Time Updates: Dynamic representation of seismic activities globally.
+- **Earthquake Visualization**: Earthquake data is integrated into a virtual globe model, sourced from Unity3D-Globe.
+- **Real-Time Updates**: Dynamically represents seismic activities globally.
 
-![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/6a6f0e37-ca30-47e7-9e68-764d2d845043)
+<p align="center">
+  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/6a6f0e37-ca30-47e7-9e68-764d2d845043" alt="Virtual Globe"/>
+</p>
 
 ### Interactive AR Features
-Object Interaction: User capabilities include double-tapping to place an object, dragging, rotating, and scaling using multi-touch gestures.
+- **Object Interaction**: Users can interact with the AR objects through double-tapping, dragging, rotating, and scaling using multi-touch gestures.
 
-![image](https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2)
+<p align="center">
+  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2" alt="Interactive AR"/>
+</p>
 
 ### Technologies Used
 1. Unity: For AR application development.
