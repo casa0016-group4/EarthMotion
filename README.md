@@ -58,7 +58,7 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 
 ### Tools Used
 
-| <img src="/Src/rhino_icon.png" width="150"> | <img src="/Src/grasshopper_icon.png" width="150"> | <img src="/Src/autocad_icon.png" width="150"> | <img src="/Src/fusion360_icon.png" width="150"> |
+| <img src="/Src/rhino_icon.png" width="150"> | <img src="/Src/grasshopper_icon.png" width="120"> | <img src="/Src/autocad_icon.png" width="120"> | <img src="/Src/fusion360_icon.png" width="120"> |
 |:------------------------------------------:|:------------------------------------------------:|:----------------------------------------------:|:------------------------------------------------:|
 | **Rhino**<br>Used for precision 3D modeling and CAD applications. | **Grasshopper**<br>Employed for algorithmic design and parametric modeling. | **AutoCAD**<br>Utilized for 2D and 3D CAD design and drafting. | **Fusion 360**<br>Applied for integrated CAD, CAM, and CAE software solutions. |
 
