@@ -33,6 +33,16 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 ## 2.1 Physical Device Visualization
 
 ### Physical Device Design
+- Conceptual Deisn in Rhino: We initially used Rhino to design our device prototype, featuring an innovative motion and intuitive data visualization. Our design replaces traditional dials and pointers with two semi-circular panels. These panels display earthquake magnitudes by rotating to varying angles, with wider angles indicating higher magnitudes.
+<p align="center>
+    <img src="./Src/conceptual_design.png" width="400px alt="Preliminary Gear Simulation">
+</p>
+
+- Preliminary Gear Simulation:  With the aid of Grasshopper, we conducted preliminary modelling and dynamic simulation of the two envisioned rotating semi-circular panels. This helped us to further determine the specifications of the gears and the specific arrangement of the internal space within the base.
+<p align="center>
+    <img src="./Src/preliminary_gear_simulation.jpg" width="400px alt="Preliminary Gear Simulation">
+</p>
+
 
 ### Data Acquisition and Display
 - **API Integration**: We have developed a NodeJs application to request real-time earthquake data by accessing the API provided by the ESGS Earthquake Program (see [USGS Earthquake Program](https://www.usgs.gov/programs/earthquake-hazards) and [USGS API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson)). This process enables the detection of real-time earthquake activities. Upon gathering this data, our NodeJs application then publishes it to MQTT for broader accessibility.
