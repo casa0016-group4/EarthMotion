@@ -1,28 +1,30 @@
-# EarthMotion
-Project Theme: 
+# EarthMotion: Real-Time Earthquake Activity Monitoring
 
-Earthquakes - Climate Force 
+## Project Theme
+**Earthquakes - Climate Force**
 
- 
+<div align="center">
+    <img width="400px" src="./Src/Overall.jpg" alt="Final Device">
+</div>
 
-Project Background: 
+## Project Background
+Earthquakes on Earth are a natural phenomenon, but they can have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety. IoT (Internet of Things) technology provides a new way for us to monitor seismic activity in real-time and convey information. By connecting to seismic monitoring data APIs, we can establish a real-time, global monitoring system for earthquake activities, enhancing our understanding of geological events.
 
-Earthquakes on Earth are a natural phenomenon, but they can have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety. IoT (Internet of Things) technology provides a new way for us to monitor seismic activity in real-time and convey information. By connecting to seismic monitoring data APIs, we can establish a real-time, global monitoring system for earthquake activities, enhancing our understanding of geological events. 
+## Project Introduction
+**EarthMotion** is an innovative project aiming to achieve real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs.
 
- 
+We access APIs from external websites and upload real-time data to MQTT. Users can view raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`. The Arduino Uno Wi-Fi Rev2 board enables data to flow to each terminal hardware.
 
-Project Introduction - EarthMotion: 
+We have implemented two methods for real-time seismic data visualization:
+1. A 16*2 LCD displays location and magnitude information. The first line shows the exact location through scrolling text due to the length of the text, while the second line displays the magnitude figure.
+2. The rotation of two SG-90 servos drives gears and sectors, exposing the baseplate and allowing users to see the corresponding magnitude levels and intensity on the baseplate.
 
-EarthMotion is an innovative project aiming to achieve real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs. 
+Additionally, we offer two ways to alert users in the event of a significant earthquake:
+1. The operation of a buzzer provides an auditory warning of strong earthquakes.
+2. A visually based alert using the color of an LED light strip indicates the severity. Green for magnitudes less than 3.0, yellow for levels between 3.0 and 5.0, and red if the magnitude exceeds 5.0.
 
-We get APIs from external website and upload real-time data to the MQTT, then users can view raw data through MQTT Explorer host: mqtt.cetools.org student/CASA0019/G4. Then Arduino Uno Wi-Fi Rev2 board enable data float to each terminal hardware.
+*Earthquakes on Earth are a natural phenomenon, but they have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety.*
 
-We have two methods for real-time seismic data visualization. For one, a 16*2 LCD presents location and magnitude information directly, the first line displays the exact location through scrolling text due to text’s length while the second line shows the figure of magnitude. For another, the rotation of two SG-90 servers drives the gears and sectors to rotate together, exposing the baseplate and allowing users to see the corresponding magnitude levels and intensity on the baseplate.
-
-We also have two ways to remind users if there is a strong earthquake happening. One way is to start the operation of buzzer, users are aware of strong earthquakes by sound. Another way is to visually based on the color of the LED light strip. If the magnitude is less than 3.0, the color is green; for levels between 3.0 and 5.0, it turns yellow; if the magnitude exceeds 5.0, it changes to red.
-
-Earthquakes on Earth are a natural phenomenon, but they can have significant impacts on human life and property. Timely access to earthquake information is crucial for disaster management, early warnings, and public safety.
- 
 
 Hardware
 | Components   | Description |
