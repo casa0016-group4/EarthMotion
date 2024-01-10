@@ -106,7 +106,7 @@ EarthMotion's AR Twin component involves the creation of a digital twin model, o
 
 ### Tools Used
 
-| <img src="/Src/unity_icon.png" width="120"> | <img src="/Src/vscode_icon.png" width="120"> | <img src="/Src/blender_icon.png" width="120"> |
+| <img src="/Src/unity_icon.png" width="100"> | <img src="/Src/vscode_icon.png" width="100"> | <img src="/Src/blender_icon.png" width="100"> |
 |:-------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
 | **Unity**<br>Used for AR application development. | **Visual Studio Code**<br>Utilized for coding and scripting. | **Blender 3.6 LTS**<br>Employed for design and texture modifications. |
 
