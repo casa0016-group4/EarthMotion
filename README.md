@@ -77,7 +77,7 @@ EarthMotion's AR Twin component involves the creation of a digital twin model, o
 - **Enhanced Information**: Includes detailed data such as Earthquake Magnitude, Location, and Time.
 
 <p align="center">
-  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/34bc1804-8ce9-4b3d-99ab-ff608728c6ae" alt="Informative Leaflet"/>
+  <img witdh="450px" src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/34bc1804-8ce9-4b3d-99ab-ff608728c6ae" alt="Informative Leaflet"/>
 </p>
 
 ### Virtual Globe Feature
@@ -85,14 +85,14 @@ EarthMotion's AR Twin component involves the creation of a digital twin model, o
 - **Real-Time Updates**: Dynamically represents seismic activities globally.
 
 <p align="center">
-  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/6a6f0e37-ca30-47e7-9e68-764d2d845043" alt="Virtual Globe"/>
+  <img witdh="450px" src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/6a6f0e37-ca30-47e7-9e68-764d2d845043" alt="Virtual Globe"/>
 </p>
 
 ### Interactive AR Features
 - **Object Interaction**: Users can interact with the AR objects through double-tapping, dragging, rotating, and scaling using multi-touch gestures.
 
 <p align="center">
-  <img src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2" alt="Interactive AR"/>
+  <img witdh="450px" src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2" alt="Interactive AR"/>
 </p>
 
 ### Technologies Used
