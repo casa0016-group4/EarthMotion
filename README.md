@@ -95,12 +95,15 @@ EarthMotion's AR Twin component involves the creation of a digital twin model, o
   <img witdh="450px" src="https://github.com/casa0016-group4/EarthMotion/assets/146333771/162f6525-cbd8-49ec-9972-76135bb9e0f2" alt="Interactive AR"/>
 </p>
 
-### Technologies Used
-1. Unity: For AR application development.
-2. Visual Studio Code: For coding and scripting.
-3. Blender 3.6 LTS: For design and texture modifications.
+## Technologies Used
 
-In conclusion, Our Augmented Digital Counterpart project represents a significant leap in digital data presentation, providing users with an enriched and interactive experience. The integration of advanced technologies and user-friendly interactive features makes this project a standout in the field of AR applications.
+### Software and Tools
+| ![Unity Logo](/Src/unity_icon.png) | ![Visual Studio Code Logo](/Src/vscode_icon.png) | ![Blender Logo](/Src/blender_icon.png) |
+|:----------------------------------:|:------------------------------------------------:|:---------------------------------------:|
+| **Unity**<br>Used for AR application development. | **Visual Studio Code**<br>Utilized for coding and scripting. | **Blender 3.6 LTS**<br>Employed for design and texture modifications. |
+
+
+In conclusion, our Augmented Digital Counterpart project represents a significant advancement in digital data presentation, offering users an enriched and interactive experience. The integration of advanced technologies and user-friendly interactive features positions this project as a standout in the field of AR applications.
 
 
 
