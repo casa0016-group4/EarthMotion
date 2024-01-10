@@ -10,7 +10,13 @@
 Earthquakes are natural but impactful on lives and properties. Quick access to earthquake data is vital for disaster management and safety. IoT technology enables real-time seismic monitoring through APIs, establishing a global system to better understand geological events.
 
 ## Project Introduction
-**EarthMotion** is an innovative initiative aimed at achieving real-time monitoring and visualization of global earthquake activities through seismic monitoring data APIs.
+**EarthMotion** is an innovative initiative focused on real-time monitoring and visualization of global earthquake activities using seismic monitoring data APIs. This project has successfully implemented two distinct forms of data visualization:
+
+- *Physical Device Visualization*: This involves the creation of a tangible apparatus that visually represents seismic data in real-time.
+- *AR Twin Visualization*: Building upon the physical device, the AR Twin visualization creates a digital twin model of the apparatus. It not only mirrors the physical device but also displays data sources and broader range data in an augmented reality format.
+
+The synergy between the physical device and its AR Twin allows for a comprehensive and immersive experience in understanding seismic activities, making EarthMotion a pioneering project in the field of geological monitoring and education.
+
 
 ### Data Acquisition and Display
 - **API Integration**: We access APIs from external websites and upload real-time data to MQTT. Users can view the raw data through MQTT Explorer at `mqtt.cetools.org` with credentials `student/CASA0019/G4`.
