@@ -4,7 +4,7 @@
 **Earthquakes - Climate Force**
 
 <div align="center">
-    <img width="400px" src="./Src/Overall.jpg" alt="Final Device">
+    <img width="750px" src="./Src/Overall.jpg" alt="Final Device">
 </div>
 
 ## Project Background
