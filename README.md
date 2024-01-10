@@ -45,7 +45,10 @@ The synergy between the physical device and its AR Twin allows for a comprehensi
 <img src="./Src/final_design.png" width="400px" alt="Preliminary Gear Simulation">
 </p>
 
-- **3D Printing and Laser Cutting**
+- **3D Printing and Laser Cutting**:Finally, we utilized two methods in the physical fabrication process: 3D printing and laser cutting. Most of the model's components were created through 3D printing, including the crucial device base and the moving gears. The 3D printing process took over 20 hours in total.
+<p align="center">
+<img src="./Src/3d_Print.jpg" width="400px" alt="Preliminary Gear Simulation">
+</p>
 
 ### Data Acquisition and Display
 - **API Integration**: We have developed a NodeJs application to request real-time earthquake data by accessing the API provided by the ESGS Earthquake Program (see [USGS Earthquake Program](https://www.usgs.gov/programs/earthquake-hazards) and [USGS API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson)). This process enables the detection of real-time earthquake activities. Upon gathering this data, our NodeJs application then publishes it to MQTT for broader accessibility.
