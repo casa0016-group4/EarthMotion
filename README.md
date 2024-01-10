@@ -35,7 +35,7 @@ Hardware
 
  
 Circuit Diagram
-![Circuit Diagram](/circuit_diagram.png)
+![Circuit Diagram](/Src/circuit_diagram.png)
 
  
 
