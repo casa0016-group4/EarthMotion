@@ -82,7 +82,7 @@ Users can view the raw data through MQTT Explorer at `mqtt.cetools.org` with cre
 | **Rhino**<br>Conceptual Design and 3D modeling | **Grasshopper**<br>Employed for algorithmic design and simple simulation. | **AutoCAD**<br>Utilized for 2D CAD design and drafting. | **Fusion 360**<br>Precise 3D modeling and dynamic simulation |
 
 ## 2.2 AR Twin: Digital Twin Development
-EarthMotion's AR Twin component involves the creation of a digital twin model, offering an immersive and informative augmented reality experience.
+EarthMotion's AR Twin component involves the creation of a digital twin model, offering an immersive and informative augmented reality experience. System using: IOS
 
 ### Digital Twin Development
 - **Integration with Blender**: Gauge FBX files are imported into Blender for dial image integration and texture adjustments.
